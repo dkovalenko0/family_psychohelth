@@ -1,0 +1,29 @@
+.about {
+  margin-top: 385px;
+
+  figure {
+    position: relative;
+
+    padding-left: 130px;
+
+    display: flex;
+    justify-content: space-between;
+
+    // background: url("../images/about-vector.svg") no-repeat left - 50px top -50px;
+
+    .about-vector {
+      position: absolute;
+      left: -70px;
+      top: -200px;
+      z-index: -1;
+    }
+
+    figcaption {
+      max-width: 439px;
+
+      .block-pretitle {
+        margin: 12px 0 25px;
+      }
+    }
+  }
+}

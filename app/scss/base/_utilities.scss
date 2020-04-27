@@ -4,3 +4,24 @@
   max-width: 1300px;
   margin: 0 auto;
 }
+
+.block-title {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 51px;
+}
+
+.block-pretitle {
+  font-size: 23px;
+  line-height: 36px;
+
+  letter-spacing: 0.01em;
+}
+
+.block-text {
+  font-size: 20px;
+  line-height: 35px;
+
+  letter-spacing: 0.01em;
+}
