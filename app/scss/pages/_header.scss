@@ -1,0 +1,121 @@
+.header {
+  padding: 29px 0 25px;
+
+  background-color: #fcf9f6;
+  color: #000000;
+
+  .header-content {
+    min-height: 651px;
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      // align-items: center;
+
+      .logo {
+        display: flex;
+
+        .logo-text {
+          margin-right: 8px;
+          max-width: 130px;
+
+          font-size: 18px;
+          line-height: 22px;
+          font-weight: 700;
+        }
+
+        &::after {
+          content: url("../images/logo.png");
+          width: 42px;
+          height: 42px;
+        }
+      }
+
+      .header-nav {
+        align-self: flex-start;
+        ul {
+          display: flex;
+
+          li {
+            &:not(:last-child) {
+              margin-right: 33px;
+            }
+
+            a {
+              font-size: 16px;
+              line-height: 20px;
+              font-weight: 400;
+              letter-spacing: 0.01em;
+              color: #000000;
+            }
+          }
+        }
+      }
+
+      .phone-order {
+        display: flex;
+        flex-direction: column;
+
+        .header-phone {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+        }
+
+        .order {
+          margin-top: 4px;
+
+          align-self: flex-end;
+
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: 400;
+          letter-spacing: 0.01em;
+          cursor: pointer;
+
+          border-bottom: 1px solid #6b7b7a;
+        }
+      }
+    }
+
+    .header-hero {
+      padding-top: -20px;
+
+      min-height: 569px;
+      background: url("../images/header-hero.png") no-repeat right -65px bottom -88px;
+      .hero-text {
+        padding-top: 110px;
+
+        .title {
+          max-width: 839px;
+
+          font-family: "Playfair Display", sans-serif;
+          font-size: 68px;
+          line-height: 91px;
+          font-weight: 700;
+        }
+
+        .post-title {
+          margin: 36px 0 79px;
+          max-width: 452px;
+
+          font-weight: 500;
+          font-size: 26px;
+          line-height: 34px;
+        }
+
+        .header-btn {
+          padding: 26px 37px 28px 42px;
+
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: 0.01em;
+          color: #ffffff;
+
+          background-color: #3e817a;
+        }
+      }
+    }
+  }
+}
