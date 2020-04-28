@@ -26,6 +26,20 @@
   letter-spacing: 0.01em;
 }
 
+.block-head {
+  text-align: center;
+}
+
+.title-md {
+  margin-bottom: 10px;
+
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 0.04em;
+}
+
 .w-252 {
   max-width: 252px;
 }
@@ -36,6 +50,10 @@
 
 .w-319 {
   max-width: 319px;
+}
+
+.w-462 {
+  max-width: 462px;
 }
 
 .pd-30 {

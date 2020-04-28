@@ -1,10 +1,7 @@
 .whyWe {
-  .block-head {
-    text-align: center;
-  }
-
   .whyWe-content {
     margin-top: 50px;
+    margin-left: 50px;
 
     display: flex;
     flex-wrap: wrap;
@@ -24,18 +21,6 @@
 
       &:nth-child(n + 4) {
         margin-top: 127px;
-      }
-
-      figcaption {
-        .whyWe-title {
-          margin-bottom: 10px;
-
-          font-family: "Playfair Display", sans-serif;
-          font-weight: 700;
-          font-size: 28px;
-          line-height: 37px;
-          letter-spacing: 0.04em;
-        }
       }
     }
   }

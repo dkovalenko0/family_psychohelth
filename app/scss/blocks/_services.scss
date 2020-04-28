@@ -1,0 +1,40 @@
+.services {
+  background-color: #fcf9f6;
+
+  .services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  figure {
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+
+    .services-vector {
+      position: absolute;
+      z-index: -1;
+    }
+
+    .services-vector-1 {
+      top: -130px;
+      left: -145px;
+    }
+
+    .services-vector-2 {
+      top: -105px;
+      left: -145px;
+    }
+
+    .services-vector-3 {
+      right: -135px;
+      bottom: 120px;
+    }
+
+    .services-vector-4 {
+      right: -110px;
+      bottom: 85px;
+    }
+  }
+}
