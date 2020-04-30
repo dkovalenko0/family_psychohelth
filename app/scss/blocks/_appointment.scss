@@ -1,0 +1,146 @@
+.appointment {
+  .appointment-content {
+    display: flex;
+    justify-content: space-around;
+
+    form {
+      padding: 90px 61px 141px;
+
+      border: 5px solid #839694;
+      .form-inputs {
+        margin-top: 44px;
+
+        min-height: 338px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .checkbox {
+          width: 81%;
+
+          input[type="checkbox"] {
+            appearance: none;
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+            outline: none;
+            border: 1px solid #839694;
+            position: relative;
+
+            transition: all 0.2s ease;
+
+            &:checked {
+              background-color: #839694;
+            }
+
+            &:after {
+              content: "";
+              position: absolute;
+              
+              left: 1.3px;
+              top: 1px;
+              width: 10px;
+              height: 7px;
+              border-radius: 1px;
+              border-left: 2px solid #fff;
+              border-bottom: 2px solid #fff;
+              transform: rotate(-45deg);
+            }
+
+        }
+
+          label:before {
+            // content: "";
+            // position: absolute;
+            // left: 0px;
+            // top: 0px;
+            // width: 18px;
+            // height: 18px;
+            // border: 1px solid #dddddd;
+            // background-color: #ffffff;
+          }
+        }
+
+        
+
+
+
+        input[type="text"],
+        input[type="tel"] {
+          width: 422px;
+
+          padding: 27px 0 27px 24px;
+          outline: none;
+          border: 1px solid #839694;
+
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: 0.01em;
+
+          color: rgba(131, 150, 148, 0.7);
+        }
+
+        button {
+          padding: 25px 87.5px 29px;
+
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: 0.01em;
+
+          color: #ffffff;
+
+          background-color: #839694;
+          border: none;
+          outline: none;
+          cursor: pointer;
+        }
+
+        label {
+          margin-left: 5px;
+
+          font-size: 16px;
+          line-height: 36px;
+
+          letter-spacing: 0.01em;
+
+          a {
+            color: #000;
+            border-bottom: 1px solid #839694;
+          }
+        }
+      }
+    }
+  }
+
+  .appointment-instruction {
+    ul {
+      margin-top: 55px;
+
+      li {
+        display: flex;
+
+        &:not(:first-child) {
+          margin-top: 36px;
+        }
+
+        .instruction-num {
+          margin-right: 31px;
+
+          width: 59px;
+          font-weight: 600;
+          font-size: 86px;
+          line-height: 105px;
+
+          letter-spacing: 0.04em;
+
+          color: rgba(191, 173, 159, 0.82);
+        }
+
+        .instruction-text {
+        }
+      }
+    }
+  }
+}
