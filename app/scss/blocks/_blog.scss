@@ -1,0 +1,60 @@
+.blog {
+	margin-top: 180px;
+
+	.blog-content {
+
+		.blog-posts {
+			margin-top: 78px;
+
+			display: flex;
+			justify-content: space-between;
+
+	
+			.blog-post {
+
+				figure {
+					background-color: #FCF9F6;
+
+					transition: all .3s linear;
+
+					&:hover {
+						background-color: #E4DAD1;
+						cursor: pointer;
+					}
+
+					img {
+
+					}
+
+					figcaption {
+						padding: 18px 29px 0;
+
+						.post-data {
+							margin-bottom: 30px;
+
+							font-size: 14px;
+							line-height: 147.5%;
+
+							letter-spacing: 0.17em;
+						}
+
+						.post-btn {
+							margin: 50px 0 67px 75px;
+							padding: 18px 35px 20px;
+
+							display: inline-block;
+
+							font-weight: 500;
+							font-size: 18px;
+							line-height: 22px;
+							letter-spacing: 0.01em;
+							color: #839694;
+
+							border: 2px solid #839694;
+						}
+					}
+				}
+			}
+		}
+	}
+}
