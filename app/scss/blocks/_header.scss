@@ -12,24 +12,7 @@
       justify-content: space-between;
       // align-items: center;
 
-      .logo {
-        display: flex;
-
-        .logo-text {
-          margin-right: 8px;
-          max-width: 130px;
-
-          font-size: 18px;
-          line-height: 22px;
-          font-weight: 700;
-        }
-
-        &::after {
-          content: url("../images/logo.png");
-          width: 42px;
-          height: 42px;
-        }
-      }
+      
 
       .header-nav {
         align-self: flex-start;
