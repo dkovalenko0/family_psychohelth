@@ -1,60 +1,83 @@
 .blog {
-	margin-top: 180px;
+  margin-top: 180px;
 
-	.blog-content {
+  @media (max-width: 968px) {
+    margin-top: 100px;
+  }
 
-		.blog-posts {
-			margin-top: 78px;
+  .blog-content {
+    .blog-posts {
+      margin-top: 78px;
 
-			display: flex;
-			justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
 
-	
-			.blog-post {
+      @media (max-width: 1282px) {
+        justify-content: center;
+      }
 
-				figure {
-					background-color: #FCF9F6;
+      .blog-post {
+        @media (max-width: 1282px) {
+          margin-top: 20px;
+          // margin-right: 20px;
+          margin-left: 20px;
+        }
 
-					transition: all .3s linear;
+        figure {
+          background-color: #fcf9f6;
 
-					&:hover {
-						background-color: #E4DAD1;
-						cursor: pointer;
-					}
+          transition: all 0.3s linear;
 
-					img {
+          &:hover {
+            background-color: #e4dad1;
+            cursor: pointer;
+          }
 
-					}
+          img {
+            @media (max-width: 468px) {
+              width: 100%;
+              height: auto;
+            }
+          }
 
-					figcaption {
-						padding: 18px 29px 0;
+          figcaption {
+            padding: 18px 29px 0;
 
-						.post-data {
-							margin-bottom: 30px;
+            @media (max-width: 411px) {
+              padding: 18px 70px 0;
+            }
 
-							font-size: 14px;
-							line-height: 147.5%;
+            .post-data {
+              margin-bottom: 30px;
 
-							letter-spacing: 0.17em;
-						}
+              font-size: 14px;
+              line-height: 147.5%;
 
-						.post-btn {
-							margin: 50px 0 67px 75px;
-							padding: 18px 35px 20px;
+              letter-spacing: 0.17em;
+            }
 
-							display: inline-block;
+            .post-btn {
+              margin: 50px 0 67px 75px;
+              padding: 18px 35px 20px;
 
-							font-weight: 500;
-							font-size: 18px;
-							line-height: 22px;
-							letter-spacing: 0.01em;
-							color: #839694;
+              display: inline-block;
 
-							border: 2px solid #839694;
-						}
-					}
-				}
-			}
-		}
-	}
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 22px;
+              letter-spacing: 0.01em;
+              color: #839694;
+
+              border: 2px solid #839694;
+
+              @media (max-width: 468px) {
+                margin: 30px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

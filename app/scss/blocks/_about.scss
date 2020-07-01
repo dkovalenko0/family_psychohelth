@@ -1,6 +1,10 @@
 .about {
   margin: 385px 0 180px;
 
+  @media (max-width: 1280px) {
+    margin: 100px 0 150px;
+  }
+
   figure {
     position: relative;
 
@@ -9,6 +13,18 @@
     display: flex;
     justify-content: space-between;
 
+    img {
+      @media (max-width: 1280px) {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    @media (max-width: 1280px) {
+      padding-left: 0;
+      flex-direction: column;
+    }
+
     // background: url("../images/about-vector.svg") no-repeat left - 50px top -50px;
 
     .about-vector {
@@ -16,10 +32,19 @@
       left: -70px;
       top: -200px;
       z-index: -1;
+
+      @media (max-width: 1280px) {
+        display: none;
+      }
     }
 
     figcaption {
       max-width: 439px;
+
+      @media (max-width: 1280px) {
+        max-width: 100%;
+        margin-top: 30px;
+      }
 
       .block-pretitle {
         margin: 12px 0 25px;

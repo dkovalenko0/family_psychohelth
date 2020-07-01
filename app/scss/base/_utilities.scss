@@ -4,6 +4,19 @@
   max-width: 1300px;
   height: 100%;
   margin: 0 auto;
+
+  @media (max-width: 1280px) {
+    max-width: 1024px;
+  }
+
+  @media (max-width: 1024px) {
+    max-width: 968px;
+  }
+
+  @media (max-width: 968px) {
+    max-width: 768px;
+    padding: 0 25px;
+  }
 }
 
 .block-title {
@@ -11,6 +24,10 @@
   font-weight: 700;
   font-size: 38px;
   line-height: 51px;
+
+  @media (max-width: 468px) {
+    font-size: 30px;
+  }
 }
 
 .block-pretitle {
@@ -18,6 +35,10 @@
   line-height: 36px;
 
   letter-spacing: 0.01em;
+
+  @media (max-width: 468px) {
+    font-size: 18px;
+  }
 }
 
 .block-text {
@@ -25,6 +46,10 @@
   line-height: 35px;
 
   letter-spacing: 0.01em;
+
+  @media (max-width: 468px) {
+    font-size: 15px;
+  }
 }
 
 .block-head {
@@ -32,22 +57,22 @@
 }
 
 .logo {
-        display: flex;
+  display: flex;
 
-        .logo-text {
-          margin-right: 8px;
-          max-width: 130px;
+  .logo-text {
+    margin-right: 8px;
+    max-width: 130px;
 
-          font-size: 18px;
-          line-height: 22px;
-          font-weight: 700;
-        }
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+  }
 
-        &::after {
-          content: url("../images/logo.png");
-          width: 42px;
-          height: 42px;
-    }
+  &::after {
+    content: url("../images/logo.png");
+    width: 42px;
+    height: 42px;
+  }
 }
 
 .title-md {
@@ -103,9 +128,9 @@
   max-width: 522px;
 }
 
-.w-683 {
-  max-width: 683px;
-}
+// .w-683 {
+//   max-width: 683px;
+// }
 
 .pd-30 {
   padding-top: 30px;
@@ -116,5 +141,5 @@
 }
 
 .mrt-10 {
-  margin-top: 10px
+  margin-top: 10px;
 }
