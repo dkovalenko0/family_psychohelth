@@ -3,7 +3,7 @@
   background-color: rgba(228, 218, 209, 0.3);
 
   @media (max-width: 468px) {
-    margin-left: 15px;
+    margin-left: 5px;
     margin-right: 5px;
   }
 
@@ -66,7 +66,7 @@
 
       .footer-nav {
         ul {
-          min-width: 350px;
+          //   min-width: 350px;
 
           display: flex;
           justify-content: space-between;
@@ -81,12 +81,13 @@
           //   }
 
           .nav-1 {
+            margin-right: 150px;
             @media (max-width: 468px) {
               margin-right: 150px;
             }
 
             @media (max-width: 411px) {
-              margin-right: 100px;
+              margin-right: 80px;
             }
           }
 
